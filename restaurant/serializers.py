@@ -3,6 +3,8 @@ from .models import Menu, Booking
 
 
 class MenuSerializer(serializers.ModelSerializer):
+    id = serializers.IntegerField(required=False)
+
     class Meta:
         model = Menu
         fields = "__all__"
