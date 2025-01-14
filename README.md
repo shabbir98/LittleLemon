@@ -11,6 +11,6 @@ For the Capstone project
 
 ### Djoser URLs
 
-- /auth/users/ (register a new user)
-- /auth/token/login (login and get a token)
-- /auth/token/logout/ (logout and revoke the token)
+- `/auth/users/` (register a new user)
+- `/auth/token/login` (login and get a token)
+- `/auth/token/logout/` (logout and revoke the token)
